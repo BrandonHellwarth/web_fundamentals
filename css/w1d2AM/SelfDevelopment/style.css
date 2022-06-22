@@ -1,3 +1,6 @@
+*{ /*weakest value is **/
+    border:5px solid black;
+}
 body{
     background-color: aqua;
     color: black;
@@ -10,4 +13,30 @@ h1{
 }
 h2{
     text-align: right;
+    text-decoration: underline;
+    font-style:italic;
+}
+h3{
+    font-family:monospace;
+}
+span{
+    color:khaki;
+}
+p{
+    color:indigo;
+    line-height: 25px;
+}
+#p1/*use # to call an id*/{
+    font-style: italic;
+    color: fuchsia;
+}
+.unda{/*use . to call a class*/
+    text-decoration:underline;
+    color: green;
+}
+ul>li{/*will only effect the li values in an unorder lists(ul)*/
+    font-size: 28px;
+}
+div>h3{/*will only effect h3 values in a div*/
+    font-style: italic;
 }
