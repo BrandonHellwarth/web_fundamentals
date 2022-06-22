@@ -1,0 +1,26 @@
+*{
+    font-family: cursive;
+}
+h1{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+span{
+    color: aqua;
+    font-size: 50px;
+}
+h2{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+h3{
+    background-color: aquamarine;
+    color: darkblue;
+    text-align: right;
+    font-size: 20;
+    text-decoration: underline;
+}
