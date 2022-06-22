@@ -1,0 +1,28 @@
+h1,button,h2,div{
+    border:1px solid black;
+}
+h1,h2{
+    width: 300px;
+}/*you can adjust the width of block elements but they still cannot be placed inline*/
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 30px/*offset-x*/ 20px/*offset-y*/ 15px/*how blurry shadow is*/5px /*spread of the shadow*/ black;/*will add a shadow to a box*/
+    font-size: 20px;
+    padding: 20px;/*can also do padding-top,-left,-right,or -bottom*/
+}
+div{
+    height: 200px;/*height and width have to be the same to make a perfect circle*/
+    width: 400px;/*ovals work fine as well*/
+    background-color: blue;
+    overflow-y: scroll;/*will keep contents inside of the designated size of the selector*/
+    border: 100px outset red;
+    padding: 50px/*top*/ 0px/*right*/30px/*bottom*/40px/*left*/;
+    margin: 100px;
+    border-radius: 50%;/*need this as well as height and width to make a circle*/
+
+}
+#likebtn{
+    margin-right: 20px;/*creates a space between the two buttons*/
+}
