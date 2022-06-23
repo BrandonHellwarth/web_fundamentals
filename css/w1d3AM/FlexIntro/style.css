@@ -1,0 +1,29 @@
+*{/*this statement is a basic css reset*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;/*The height and width of a box will also include the margin, padding, and border in the equation*/
+}
+.row{
+    height: 250px;
+    outline: solid 1px black;
+    background-color: coral;
+    display: flex;/*allows all boxes contained in the row class to be inline*/
+    justify-content: center;/*moves all boxes in the row class to the center of the x-axis of thier parent box*/
+    gap: 10px;
+    /* flex-direction: column; sets the content of row in a column*/
+    align-items: center;/*y-axis*/
+    margin-bottom: 20px;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    outline: 1px solid black;/*adds border without adding any pixels*/
+}
+img{
+    /* height: 200px; */
+    width: 200px;/*if you only use one of these values it will scale the image with its origonal ratio*/
+}
+#row1{
+    justify-content: space-between;
+}
