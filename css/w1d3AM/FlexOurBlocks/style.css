@@ -1,0 +1,45 @@
+#background{
+    height: 630px;
+    width: 1000px;
+    background-color: silver;
+}
+#head{
+    height: 100px;
+    width: 980px;
+    background-color: green;
+    border: 10px solid silver;
+}
+#left{
+    height: 300px;
+    width: 250px;
+    background-color: blue;
+    margin: 0px 10px 10px 10px;
+    vertical-align: top;
+}
+#right{
+    height: 500px;
+    width: 715px;
+    background-color: red;
+    margin: 0px 10px 10px 0px;
+}
+#a{
+    margin: 10px;
+}
+.yellow{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin: 10px 10px 10px 0px;
+}
+#bottom{
+    height: 150px;
+    width: 620px;
+    background-color: purple;
+    margin: 10px;
+}
+.row{
+    display: flex;
+}
+.main{
+    display: flex;
+}
