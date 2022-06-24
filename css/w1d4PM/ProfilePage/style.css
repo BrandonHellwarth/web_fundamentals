@@ -68,11 +68,11 @@ span{
     height: 100px;
     display: flex;
     background-color: black;
-    justify-content: space-around;
+    justify-content: center;
 }
 #box1{
     height: 100px;
-    width: 600px;
+    width: 687px;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -83,10 +83,10 @@ span{
     width: 400px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 #profile{
-    margin: 0;
+    margin-top: 0px;
     font-size: 40px;
 }
 ul{
@@ -95,9 +95,11 @@ ul{
     list-style-type: none;
 }
 li{
-    margin-left: 20px;
+    font-size: 18px;
 }
 .greytext{
+    margin-left: 30px;
+    margin-right: 30px;
     color: rgb(189,189,189);
 }
 button{
