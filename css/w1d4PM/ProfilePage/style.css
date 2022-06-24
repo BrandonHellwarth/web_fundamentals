@@ -1,0 +1,259 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row1{
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
+    background-color: rgb(23,162,184);
+}
+.row2{
+    height: 320px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border: 4px solid grey;
+}
+#user{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 75px;
+    left: 50px;
+    border: 4px solid white;
+    box-shadow: 0px 0px 0px 3px grey;
+}
+h1{
+    margin-top: 85px;
+    font-size: 50px;
+}
+.row{
+    margin-left: 40px;
+}
+#location{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#img1{
+    width: 15px;
+    margin-right: 20px;
+}
+#h31{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#gear{
+    width: 25px;
+    margin-right: 15px;
+}
+#edit{
+    display: flex;
+    align-items: center;
+}
+a{
+    font-size: 20px;
+    color: rgb(43,120,228);
+}
+span{
+    padding-left: 10px;
+    border-left: 2px solid black;
+}
+#nav{
+    height: 100px;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+#box1{
+    height: 100px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+#box2{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#profile{
+    margin: 0;
+    font-size: 40px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+li{
+    margin-left: 20px;
+}
+.greytext{
+    color: rgb(189,189,189);
+}
+button{
+    font-size: 15px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(23,162,184);
+    color: white;
+}
+#main{
+    display: flex;
+    justify-content: center;
+}
+.row3{
+    height: 75px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
+    background-color: rgb(51,51,51);
+    display: flex;
+    align-items: center;
+}
+.row4{
+    height: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border-top: 4px solid grey;
+    border-left: 4px solid grey;
+    border-right: 4px solid grey;
+}
+#ed{
+    font-size: 24px;
+    color: white;
+}
+#cd{
+    font-size: 30px;
+    margin-top: 20px;
+}
+#date{
+    color: rgb(111,111,111);
+}
+.row5{
+    height: 75px;
+    margin-top: 50px;
+    margin-right: 100px;
+    background-color: rgb(51,51,51);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.row6{
+    height: 200px;
+    margin-right: 100px;
+    border: 4px solid grey;
+}
+#cr{
+    margin-top: 0px;
+    margin-left: 0px;
+    color: white;
+}
+.margin{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.nameplate{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.btnsize{
+    height: 40px;
+}
+.imgsize{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.namemargin{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+#cb1{
+    margin-left: 15px;
+}
+#cb2{
+    margin-left: 15px;
+}
+#cirnum{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(204,204,204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+#two{
+    font-size: 25px;
+    color: rgb(51,51,51);
+}
+.nameplate2{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+.row7{
+    height: 75px;
+    margin-top: 50px;
+    margin-right: 100px;
+    background-color: rgb(51,51,51);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.row8{
+    height: 300px;
+    margin-right: 100px;
+    border: 4px solid grey;
+}
+.row9{
+    height: 50px;
+    margin-right: 100px;
+    border-left: 4px solid grey;
+    border-right: 4px solid grey;
+    border-bottom: 4px solid grey;
+    display: flex;
+    align-items: center;
+}
+#cirnum2{
+    height: 40px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: rgb(204,204,204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+#fivehundred{
+    font-size: 25px;
+    color: rgb(51,51,51);
+}
+#yc{
+    margin-top: 0px;
+    margin-left: 0px;
+    color: white;
+}
+#link{
+    margin-left: 20px;
+}
