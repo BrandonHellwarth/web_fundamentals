@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;/*100% of view height*/
+    background-image: linear-gradient(to bottom, gray, white);
+}
+.main{
+    height: 700px;
+    width: 1400px;
+    margin: 0 auto; /*centers the class inside its container*/
+    outline: 1px solid red;
+}
+#cover-photo{
+    height: 500px;
+    width: 1400px;
+    object-fit: cover;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+#thumbnail{
+    position: relative;/*relative from objects origonal position*/
+    bottom: 50px;
+    left: 50px;/*moves from stated direction*/
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 3px white;
+}
+.info{
+    margin-left: 60px;
+    /* position: absolute;Relative from the in this case top left corner
+    top: 0px;
+    left: 0px;*/
+}
+h2{
+    font-size: 4rem;
+}
+p{
+    font-size: 1.5rem;
+}
+#news-feed{
+    font-size: 16px;
+}
+.cookie-box{
+    height: 100px;
+    width: 1400px;
+    position: fixed;/*will keep object in the same position even when scrolling*/
+    bottom: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+}
