@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0px/*top/bottom*/ 30px/*left/right*/;
+}
+#nav-bar{
+    background-color: aquamarine;
+    padding: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-size: 35px;
+}
+#nav-bar input{/*will select all of the inputs inside of nav bar*/
+    height: 36px;
+    width: 240px;
+    font-size: 18px;
+}
+#nav-bar button{/*will select all of the buttons inside of nav bar*/
+    padding: 3px 10px;
+    font-size: 20px;
+    background-color: darkgoldenrod;
+    box-shadow: 3px 3px black;
+}
+#main{
+    height: 800px
+    margin: 0px 30px; 
+    display: flex;
+}
+#col-left{
+    flex: 2;
+    margin-right: 20px;
+}
+#col-right{
+    flex: 1;
+}
+.puppy{
+    height: 300px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+.puppy-left{
+    margin-right: 30px;
+    text-align: center;
+}
+.puppy-left > img{/*will select all of the images that are DIRECT children of puppy-left*/
+    height: 150px;
+    width: 150px;
+}
+.puppy-left > h3{/*will select all of the h3 tags that are DIRECT children of puppy-left*/
+    font-size: 30px;
+}
+.puppy-left > button{
+    background-color: aquamarine;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-top: 15px;
+    box-shadow: 3px 3px black;
+}
+.puppy-right > p{
+    font-size: 20px;
+}
+#upload, #video{
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 22px;
+}
+#upload{
+    margin-bottom: 20px;
+}
+#upload > button{
+    background-color: darkorange;
+    padding: 8px;
+    box-shadow: 3px 3px black;
+    margin-top: 20px;
+}
+#video > video{
+    width: 200px;
+}
+#video > p{
+    margin-bottom: 20px;
+}
+#cookiebox{
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    padding: 20px;
+    position: fixed;
+    bottom: 20px;
+}
+#cookiebox > img{
+    width: 140px;
+}
+#cookiebox > button{
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    padding: 5px 20px;
+    box-shadow: 3px 3px black;
+}
