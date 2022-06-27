@@ -15,17 +15,17 @@
             <button>Search!</button>
             <!-- <p>Hello</p> -->
         </div>
-        <button>Login</button>
+        <button onclick="removeElement(this)">Login</button>
     </div>
     <div id="main">
         <div id="col-left">
             <div class="puppy">
                 <div class="puppy-left">
-                    <img src="puppy.jpeg" alt="puppy">
+                    <img onclick="changeImg(this)" src="puppy.jpeg" alt="puppy">
                     <h3>Junior</h3>
                     <em>Male</em>
                     <p>Breed: <i>Fox</i></p>
-                    <button>10 likes</button>
+                    <button onclick="alert('You liked this pet!')">10 likes</button>
                 </div>
                 <div class="puppy-right">
                     <p>Junior is a ver spontaneous, high-energy <a href="">Fox</a> who loves to eat food</p>
@@ -37,7 +37,7 @@
                     <h3>Fluffy</h3>
                     <em>Female</em>
                     <p>Breed: <i>Beagle</i></p>
-                    <button>8 likes</button>
+                    <button onclick="changeImg(this)" onclick="alert('You\/*use backslash to add punctuation*/'ve liked this pet!')">8 likes</button>
                 </div>
                 <div class="puppy-right">
                     <p>Fluffy is a quite, shy, and calm <a href="">Beagle</a> who loves to eat and play fetch</p>
@@ -47,11 +47,11 @@
         <div id="col-right">
             <div id="upload">
                 <p>Please upload your pup info to our puppy social media.</p>
-                <button>Upload new pup!</button>
+                <button onclick="UploadPup(this)">Upload new pup!</button>
             </div>
             <div id="video">
                 <p>Our popular video of the week!</p>
-                <video src="puppy_video.mp4"></video>
+                <video onmouseover="playVideo(this)" onmouseout="pauseVideo(this)" src="puppy_video.mp4"></video>
                 <br>
                 <i>This is Josie, the playful beach dog!</i>
             </div>
@@ -60,7 +60,8 @@
     <div id="cookiebox">
         <img src="caution.jpeg" alt="caution symbol">
         <p>This site will track all your information and sell it. You will get some dopamine hits from scrolling though. Please accept this cookie?</p>
-        <button>I accept</button>
+        <button onclick="cookieMonster()">I accept</button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

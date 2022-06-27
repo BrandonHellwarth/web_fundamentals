@@ -3,7 +3,7 @@ function greetuser(firstname,lastname){
 }
 greetuser("Brandon","Hellwarth");
 greetuser("Saurabh","Dahal");
-/*Parameter-> the variable(s) that represent what the function is expecting as input. Parameters are set when you DEFINE the function
+/*Parameter-> the variable(s) that represents what the function is expecting as input. Parameters are set when you DEFINE the function
 Argument-> the data that I give to the function when I INVOKE (CALL) the function
 ->The value of a function call is whatever that function call RETURNS*/
 /*RETURN/BREAK DEMO*/
