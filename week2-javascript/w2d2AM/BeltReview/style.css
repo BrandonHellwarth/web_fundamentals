@@ -39,20 +39,21 @@ h1{
     font-size: 1.2rem;
     padding: 10px 0px;
 }
-#navbar input{
-    height: 30px;
-    width: 210px;
-    border-radius: 10px;
-    background-image: url("/.resources/searchIcon.webp");
-    background-repeat: no-repeat;
-    padding-right:20px;
+#input{/*this is the best way to add an image ina input, put input and img inside of another box and give it a border*/ 
+    border: 2px solid black;
+    display: flex;
+    padding: 4px 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
 }
-/* #navbar img{
-    height: 20px;
-    position: relative;
-    right: 50px;
-    top: 5px;
-} */
+input{
+    border: none;
+    flex: 1;
+}
+#input>img{
+    height: 16px;
+}/*end search bar*/
 #slogan{
     text-align: center;
     font-style: italic;
