@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0px 40px;
+}
+#header{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    height: 100px;
+}
+#user{
+    height: 60px;
+}
+#header-left, #header-right{
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 3.4rem;/*1rem = 16px*/
+    font-family: cursive;
+}
+#header-right>span{
+    font-size: 1.8rem;
+}
+#navbar{
+    border-bottom: 3px solid black;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding: 10px 0px;
+}
+#navbar input{
+    height: 30px;
+    width: 210px;
+    border-radius: 10px;
+    background-image: url("/.resources/searchIcon.webp");
+    background-repeat: no-repeat;
+    padding-right:20px;
+}
+/* #navbar img{
+    height: 20px;
+    position: relative;
+    right: 50px;
+    top: 5px;
+} */
+#slogan{
+    text-align: center;
+    font-style: italic;
+    font-size: 2.4rem;
+    padding: 15px 0px;
+}
+#players{
+    border: 1px solid red;
+    background-color: coral;
+    border-radius: 20px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.player{
+    text-align: center;
+}
+.player>img{
+    height: 100px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#col-left{
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+}
+#col-right{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+#try{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    padding: 10px;
+    font-size: 1.4rem;
+    gap: 20px;
+    border-radius: 8px;
+}
+#try>img{
+    height: 60px;
+    width: 70px;
+}
+#col-left>img{
+    height: 200px;
+    margin-top: 20px;
+}
+#col-right>img{
+    height: 300px;
+}
+#learn{
+    text-align: center;
+    background-color: coral;
+    padding: 80px 10px;
+    font-size: 1.4rem;
+    height: 300px;
+}
+#learn>button{
+    padding: 10px 30px;
+    border-radius:  20px;
+    background-color: burlywood;
+    margin-top: 20px;
+    box-shadow: 3px 3px black;
+}
+#terms{
+    background-color: grey;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+#terms>h4{
+    text-align: center;
+}
+#cookiebox{
+    border: 2px solid black;
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+#cookiebox>img{
+    height: 80px;
+}
+#cookiebox>button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 3px 3px black;
+}

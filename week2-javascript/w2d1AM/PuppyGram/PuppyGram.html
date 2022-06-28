@@ -21,11 +21,11 @@
         <div id="col-left">
             <div class="puppy">
                 <div class="puppy-left">
-                    <img onclick="changeImg(this)" src="puppy.jpeg" alt="puppy">
+                    <img onmouseover="changeImg(this)" src="puppy.jpeg" alt="puppy">
                     <h3>Junior</h3>
                     <em>Male</em>
                     <p>Breed: <i>Fox</i></p>
-                    <button onclick="alert('You liked this pet!')">10 likes</button>
+                    <button onclick="incrementLike('#pup1')" onclick="alert('You liked this pet!')"><span id="pup1">10</span> likes</button>
                 </div>
                 <div class="puppy-right">
                     <p>Junior is a ver spontaneous, high-energy <a href="">Fox</a> who loves to eat food</p>
@@ -37,7 +37,7 @@
                     <h3>Fluffy</h3>
                     <em>Female</em>
                     <p>Breed: <i>Beagle</i></p>
-                    <button onclick="changeImg(this)" onclick="alert('You\/*use backslash to add punctuation*/'ve liked this pet!')">8 likes</button>
+                    <button onclick="incrementLike('#pup2')" onclick="alert('You\/*use backslash to add punctuation*/'ve liked this pet!')"><span id="pup2">8</span> likes</button>
                 </div>
                 <div class="puppy-right">
                     <p>Fluffy is a quite, shy, and calm <a href="">Beagle</a> who loves to eat and play fetch</p>
