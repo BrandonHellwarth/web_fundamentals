@@ -30,3 +30,8 @@ function incrementLike(id){
     // var likecount = Number(element.innerText); you can force a variable to be a number with Number()
     console.log("new like count: " + element.innerText);
 }
+function alertmessagefrominput(){
+    console.log("working");
+    searchinput = document.querySelector("#search")
+    alert("You searched for: " + searchinput.value/*use value for a user input and innerText for html text*/);
+}
