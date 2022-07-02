@@ -46,6 +46,7 @@ console.log("after: " + theDojo);
 function howMany(i, j, element) {
     console.log({i, j});
     neighbours = 0;
+    //inner box
     if(i > 0 && i < 9 && j > 0 && j < 9){
         neighbours = neighbours - theDojo[i][j];
         i--;
@@ -63,6 +64,7 @@ function howMany(i, j, element) {
         j++;
         i-=2;
     }
+    //left column
     if(i > 0 && i < 9 && j < 1){
         neighbours = neighbours - theDojo[i][j];
         i--;
@@ -78,6 +80,7 @@ function howMany(i, j, element) {
         }
         i-=2;
     }
+    //right column
     if(i > 0 && i < 9 && j > 8){
         neighbours = neighbours - theDojo[i][j];
         i--;
@@ -95,14 +98,13 @@ function howMany(i, j, element) {
         j++;
         i-=2;
     }
+    //top row
     if(i < 1 && j > 0 && j < 9){
         neighbours = neighbours - theDojo[i][j];
         j--;
         for(b=0;b<2;b++){
             for(a=0;a<3;a++){
-                if(theDojo[i][j] > 0){
-                    neighbours += theDojo[i][j];
-                }
+                neighbours += theDojo[i][j];
                 j++;
             }
             j-=3;
@@ -111,15 +113,14 @@ function howMany(i, j, element) {
         j++;
         i-=2;
     }
+    //bottom row
     if(i > 8 && j > 0 && j <9){
         neighbours = neighbours - theDojo[i][j];
         i--;
         j--;
         for(b=0;b<2;b++){
             for(a=0;a<3;a++){
-                if(theDojo[i][j] > 0){
-                    neighbours += theDojo[i][j];
-                }
+                neighbours += theDojo[i][j];
                 j++;
             }
             i++;
@@ -127,6 +128,64 @@ function howMany(i, j, element) {
         }
         j-=2;
         i--;
+    }
+    //top left corner
+    if(i < 1 && j < 1){
+        neighbours = neighbours - theDojo[i][j];
+        for(b=0;b<2;b++){
+            for(a=0;a<2;a++){
+                neighbours += theDojo[i][j];
+                j++;
+            }
+            i++;
+            j-=2;
+        }
+        i-=2;
+    }
+    //top right corner
+    if(i < 1 && j > 8){
+        neighbours = neighbours - theDojo[i][j];
+        j--;
+        for(b=0;b<2;b++){
+            for(a=0;a<2;a++){
+                neighbours += theDojo[i][j];
+                j++;
+            }
+            i++;
+            j-=2;
+        }
+        i-=2;
+        j++;
+    }
+    //bottom left corner
+    if(i > 8 && j < 1){
+        neighbours = neighbours - theDojo[i][j];
+        i--;
+        for(b=0;b<2;b++){
+            for(a=0;a<2;a++){
+                neighbours += theDojo[i][j];
+                j++;
+            }
+            i++;
+            j-=2;
+        }
+        i--;
+    }
+    //bottom right corner
+    if(i > 8 && j > 8){
+        neighbours = neighbours - theDojo[i][j];
+        i--;
+        j--;
+        for(b=0;b<2;b++){
+            for(a=0;a<2;a++){
+                neighbours += theDojo[i][j];
+                j++;
+            }
+            i++;
+            j-=2;
+        }
+        i--;
+        j++;
     }
     element.innerText = neighbours;//challenge 1
     // alert("There are " + neighbours + " ninjas in adjacent tiles");
